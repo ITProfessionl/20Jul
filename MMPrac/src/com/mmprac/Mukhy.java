@@ -7,6 +7,7 @@ public class Mukhy {
 	public static void main(String[] args) {
 	List<User> list=new ArrayList<User>(); 
 		list=new MyService().allUsers();
+		System.out.println("minnu");
 		 System.out.println(list);
 		 
 		 /*for(int i=0;i<list.size();i++)
